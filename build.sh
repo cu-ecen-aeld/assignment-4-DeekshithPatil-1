@@ -1,7 +1,7 @@
 #!/bin/bash
 #Script to build buildroot configuration
 #Author: Siddhant Jajoo
-
+set -e
 source shared.sh
 
 EXTERNAL_REL_BUILDROOT=../base_external
